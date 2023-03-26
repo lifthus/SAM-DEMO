@@ -50,10 +50,10 @@ Resources:
         Fn::Join:
           - ""
           - - ApplicationInsights-SAM-
-            - Ref: AWS::StackName
+            - Ref: AWS::lsStackName
       AutoConfigurationEnabled: "true"
     DependsOn: ApplicationResourceGroup
-Outputs: ## 배포했을 때 확인하기 좋으라고 여러가지 화면에 찍는 내용
+Outputs: ## deploy 명령할 때 확인하기 좋으라고 여러가지 화면에 찍는 내용(url 등 보여줌)
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
   # Find out more about other implicit resources you can reference within SAM
   # https://github.com/awslabs/serverless-application-model/blob/master/docs/internals/generated_resources.rst#api
