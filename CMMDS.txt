@@ -1,0 +1,6 @@
+sam init
+sam build
+sam local generate-event apigateway aws-proxy > events/apigw-event.json 
+sam local invoke -e events/apigw-event.json // 단 건 이벤트 호출
+sam local start-api // api로 호출
+sam deploy --guided // authorization defiend 관해서 y로 답하지 않으면 deploy fail
