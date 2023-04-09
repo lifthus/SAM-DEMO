@@ -56,7 +56,7 @@ Resources:
           Properties:
             ApiId:
               Ref: SamDemoApi # reference to the API that we defined above.
-            Path: "/greeting" # root path invocation
+            Path: /greeting # root path invocation
             Method: ANY # allowed HTTP methods
         GreetingServiceProxy: # proxy path for all routes except root
           Type: HttpApi # API Gateway V2(HTTP API)
