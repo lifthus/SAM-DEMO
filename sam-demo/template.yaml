@@ -111,5 +111,5 @@ Outputs:
     Description: GreetingService Lambda ARN
     Value: !GetAtt GreetingService.Arn
   GreetingServiceIamRole:
-    Description: Implicit IAM Role created for Greeti
+    Description: Implicit IAM Role created for GreetingService
     Value: !GetAtt GreetingServiceRole.Arn
