@@ -17,7 +17,7 @@ Globals:
         DEMO_ENV: "production"
   HttpApi:
     CorsConfiguration: # CORS settings for all APIs
-      AllowOrigin: "'*'"
+      AllowOrigins: "'*'"
       AllowHeaders: "'*'"
       AllowMethods: "'*'"
       #AllowCredentials: true # with any wildcard set for CORS, this is not allowed.
@@ -112,4 +112,4 @@ Outputs:
     Value: !GetAtt GreetingService.Arn
   GreetingServiceIamRole:
     Description: Implicit IAM Role created for Greeti
-    Value: !GetAtt GrettingServiceRole.Arn
+    Value: !GetAtt GreetingServiceRole.Arn
