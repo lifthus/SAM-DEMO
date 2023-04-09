@@ -14,6 +14,7 @@ Globals:
       Variables: # --env-vars takes precedence over these values in sam local
         DEMO_GREETING: "{{resolve:ssm:DEMO_GREETING:1}}"
         DEMO_USER: "{{resolve:ssm:DEMO_USER:1}}"
+        DEMO_ENV: "production"
   HttpApi:
     CorsConfiguration: # CORS settings for all APIs
       AllowOrigin: "'*'"

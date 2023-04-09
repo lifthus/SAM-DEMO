@@ -16,10 +16,15 @@
 
 # env files
 .env
-#env.json # YOU HAVE TO ADD IT 
+#env.json # !! YOU HAVE TO ADD THIS !! IT IS EXPOSED ONLY FOR DEMONSTRATION PURPOSE !!
 
 # build output
 .aws-sam/
+greeting-service
+hello-world
+
+# dependency directories
+node_modules/
 
 # sam config
 samconfig.toml
