@@ -26,6 +26,8 @@ Answering with env var serverless endpoint in Go
 https://sam-demo.cloudhus.com/greeting/hi<br>
 Answering with env var serverless endpoint in Go
 
+<hr>
+
 ### Most used SAM commands
 ```
 sam init 
