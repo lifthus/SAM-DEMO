@@ -16,11 +16,10 @@
 
 # env files
 .env
-env.json
+#env.json # YOU HAVE TO ADD IT 
 
 # build output
 .aws-sam/
-hus-auth
 
 # sam config
 samconfig.toml
