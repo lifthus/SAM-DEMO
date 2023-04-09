@@ -1,0 +1,6 @@
+go 1.19
+
+use (
+	./sam-demo/services/greeting-service
+	./sam-demo/services/hello-world
+)

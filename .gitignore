@@ -13,3 +13,17 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# env files
+.env
+env.json
+
+# build output
+.aws-sam/
+hus-auth
+
+# sam config
+samconfig.toml
+
+# openapi output
+docs/
