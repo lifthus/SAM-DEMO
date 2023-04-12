@@ -1,7 +1,7 @@
 # SAM DEMO
 <img src="https://user-images.githubusercontent.com/108582413/230770258-1e70e047-d7a7-4362-aefb-d529d8654d8d.png" width="30%">
 
-**AWS SAM** Demonstration of **serverless web service** implementation in **monorepo microservice** architecture with **multiple languages**.<br>
+**AWS SAM** Demonstration for **serverless web service** implementation in **monorepo microservice** architecture with **multiple languages**.<br>
 You can get deep insight into Serverless and Infrastructure as Code. And you can also follow the practice courses below<br>
 
 ### Practice Course Korean ver.
