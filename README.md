@@ -14,17 +14,8 @@ Coming soon . . .
 
 ## Results
 
-https://sam-demo.cloudhus.com/hello<br>
-Hello-World serverless endpoint in Go
+![image](https://github.com/lifthus/SAM-DEMO/assets/108582413/4ba3a9c6-c3f8-408b-b2ff-5877b3446464)
 
-https://sam-demo.cloudhus.com/echo/wow<br>
-Echo-Path serverless endpoint in Javascript
-
-https://sam-demo.cloudhus.com/greeting/who<br>
-Answering with env var serverless endpoint in Go
-
-https://sam-demo.cloudhus.com/greeting/hi<br>
-Answering with env var serverless endpoint in Go
 
 <hr>
 
